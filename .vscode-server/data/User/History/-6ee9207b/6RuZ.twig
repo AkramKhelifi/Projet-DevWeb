@@ -1,0 +1,35 @@
+{% extends "base_auth.html.twig" %}
+{% block body %}
+    <div class="container">
+    <div class="pic">
+    <h2 class = "welcom">WELCOM<br>TO<br>ACCORD-ENERGIE</h2></div>
+     
+    <form action="register.php" method="post" enctype="multipart/form-data">
+    <h2>Inscrivez-vous pour en voir plus.<br>C'est</h2>
+
+    <label for="nom">Nom</label>
+    <input type="text" name="nom" id="nom" placeholder="Entrez votre Nom"required/>
+            
+    <label for="prenom">Prenom</label>
+    <input type="text" name="prenom" id="prenom" placeholder="Entrez votre Prénom"required/>
+
+
+    <label for="photo">Photo</label>
+    <input type="file" name="photo" id="photo" accept=".jpg, .jpeg, .png" required/>
+
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" placeholder="Entrez votre email"/>
+            
+    <label for="email_confirmation">Email comfirmation</label>
+    <input type="email" name="email_confirmation" id="email_confirmation" placeholder="Comfirmez votre email"/>
+            
+    <label for="password">Mot de passe</label>
+    <input type="password" name="password" id="password" placeholder="Votre mot de passe"/>
+
+    <label for="password_confirmation">Mot de passe comfirmation</label>
+    <input type="password" name="password_confirmation" id="password_confirmation" placeholder="Comfirmez votre mot de passe"/>
+            
+    <input type="submit" name="send" value="Créer le compte" />
+    </form>
+
+{% endblock %}

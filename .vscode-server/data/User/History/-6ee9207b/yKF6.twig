@@ -1,0 +1,85 @@
+{% extends "base_auth.html.twig" %}
+{% block body %}
+     <h1>Créer votre compte </h1>
+     
+      <form action="" method="post">
+<div>
+    <label for="nom">Nom</label>
+      <input
+            type="text"
+            name="nom"
+            id="nom"
+            placeholder="Entrez votre Nom"
+            required
+            />
+            </div>
+
+            <label for="prenom">Prenom</label>
+      <input
+            type="text"
+            name="prenom"
+            id="prenom"
+            placeholder="Entrez votre Prénom"
+            required
+            />
+            </div>
+
+            <label for="photo">Photo</label>
+      <input
+            type="file"
+            name="photo"
+            id="photo"
+            accept=".jpg, .jpeg, .png"
+            required
+            />
+            </div>
+        
+      <label for="email">Email</label>
+      <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Entrez votre email"
+            />
+            </div>
+
+     <div>
+      <label for="email">Email comfirmation</label>
+       <input
+           type="email"
+            name="email"
+            id="email"
+            placeholder="Comfirmez votre email"
+            />
+            </div>
+
+       <div>
+      <label for="password">Mot de passe</label>
+       <input
+           type="password"
+            name="password"
+            id="password"
+            placeholder="Votre mot de passe"
+            />
+            </div>
+
+
+        <div>
+      <label for="password_cfg">Mot de passe comfirmation</label>
+       <input
+           type="password"
+            name="password_cdg"
+            id="password_cfg"
+            placeholder="Comfirmez votre mot de passe"
+            />
+            </div>
+
+            <div>
+            <input type="submit" name="send" value="Créer le compte" />
+            </div>
+        </form>
+        <p>
+     <a href="index.php">Déja un compte? </a>
+     </p>
+
+{% endblock %}

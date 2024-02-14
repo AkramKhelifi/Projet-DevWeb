@@ -1,0 +1,27 @@
+{% extends "base_auth.html.twig" %}
+
+
+{% block body %}
+    <div class="container">
+    <div class="pic">
+    <h2 class = "welcom">WELCOM<br>TO<br>ACCORD-ENERGIE</h2></div>
+    <form action="" method="post" class = "form_connect">
+    <h2>Connectez-vous pour en voir plus</h2>
+    
+    {% if msg %}
+        <p class ="erreur">{{ msg }}</p>
+    {% endif %}
+        
+    <label for="email"></label>
+    <input type="email" name="email" id="email" placeholder="E-mail" required><br><br>
+   
+    <label for="password"></label>
+    <input type="password" name="password" id="password" placeholder="Mot de passe" required><br><br>
+            
+    <p><input type="submit" value="Se connecter" name = "send" class = "btn_connexion"></p>
+        
+    <p>Pas encore inscrit ? <a href="register.php">Inscrivez-vous ici</a>
+    </p><img class = "logo2" src='images/Logo.jpg'>
+    </form></div>
+
+{% endblock %}

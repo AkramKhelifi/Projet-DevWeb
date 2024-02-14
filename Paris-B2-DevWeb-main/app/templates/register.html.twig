@@ -1,0 +1,33 @@
+{% extends "base_auth.html.twig" %}
+{% block body %}
+    <div class="container">
+    <div class="pic">
+    <h2 class = "welcom">WELCOM<br>TO<br>ACCORD-ENERGIE</h2></div>
+     
+    <form action="register.php" method="post" enctype="multipart/form-data" class = "form_reg">
+    <h2>Inscrivez-vous pour en voir plus.<br>C'est simple et gratuit</h2>
+
+     {% if msg %}
+        <p class "erreur">{{ msg }}</p>
+    {% endif %}
+
+    <p><input type="text" name="nom" id="nom" placeholder="Entrez votre Nom"required/></p>
+                
+    <p><input type="text" name="prenom" id="prenom" placeholder="Entrez votre Prénom"required/></p>
+    
+    <p><input type="file" name="photo" id="photo" accept=".jpg, .jpeg, .png" required/></p>
+
+    <p><input type="email" name="email" id="email" placeholder="Entrez votre email"/></p>
+            
+    <p><input type="email" name="email_confirmation" id="email_confirmation" placeholder="Comfirmez votre email"/></p>
+    
+    <p><input type="password" name="password" id="password" placeholder="Votre mot de passe"/></p>
+
+    <p><input type="password" name="password_confirmation" id="password_confirmation" placeholder="Comfirmez votre mot de passe"/></p>
+            
+    <p><input type="submit" value="S'inscrire" name = "send" class = "btn_connexion"></p>
+    <p>Déja inscrit ? <a href="index.php">Connectez-vous ici</a>
+    </p><img class = "logo3" src='images/Logo.jpg'>
+    </form></div>
+
+{% endblock %}

@@ -1,0 +1,60 @@
+{% extends "base_auth.html.twig" %}
+{% block body %}
+     <h1>Créer votre compte></h1>
+
+     
+      <form action="" method="post">
+
+     <label for="nom">Nom :</label>
+     <input type="text" 
+     id="nom" 
+     name="nom" 
+     required
+     />
+
+     <label for="prenom">Prénom :</label>
+     <input type="text" 
+     id="prenom" 
+     name="prenom"
+     required/>
+
+     <label for="photo">Photo :</label>
+     <input type="file" 
+     id="photo" 
+     name="photo" 
+     accept="image/" required>
+
+
+      <label for="email">Email</label>
+      <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Entrez votre email"
+            />
+            
+
+       
+      <label for="mot_de_passe">Mot de passe :</label>
+        <input type="password" id="mot_de_passe" name="mot_de_passe" required>
+
+            <select id="role_id" name="role_id">
+    <option value="ADMINISTRATEUR">Administrateur</option>
+    <option value="INTERVENANT">Intervenant</option>
+    <option value="CLIENT">Client</option>
+    <option value="STANDARDISTE">Standardiste</option>
+</select>
+
+     
+
+
+            
+
+            <div>
+            <input type="submit" name="send" value="seconnecter" />
+            </div>
+        </form>
+        <p>
+     <a href="index.php">Déja un compte? </a>
+     </p>
+{% endblock %}

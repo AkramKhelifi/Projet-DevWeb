@@ -1,0 +1,29 @@
+{% extends "base_auth.html.twig" %}
+
+
+{% block body %}
+
+
+    <form action="" method="post" class = "form_connect">
+    <h2>Connectez-vous pour en voir plus</h2>
+
+        <div>
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="E-mail" required><br><br>
+        </div>
+
+
+        <div>
+            <label for="password"></label>
+            <input type="password" name="password" id="password" placeholder="Mot de passe" required><br><br>
+        </div>
+
+
+        <div>
+        <p><input type="submit" value="Se connecter" name = "send" class = "btn_connexion"></p>
+        </div>
+        <p>Pas encore inscrit ? <a href="inscription.php">Inscrivez-vous ici</a></p>
+
+    </form>
+
+{%endblock %}

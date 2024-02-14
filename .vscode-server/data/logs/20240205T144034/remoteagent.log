@@ -1,0 +1,18 @@
+2024-02-05 14:40:34.136 [info] 
+
+
+
+
+2024-02-05 14:40:34.203 [info] Extension host agent started.
+2024-02-05 14:40:34.355 [info] [127.0.0.1][9b195ce8][ManagementConnection] New connection established.
+2024-02-05 14:40:36.303 [info] [127.0.0.1][98e5a91e][ExtensionHostConnection] New connection established.
+2024-02-05 14:40:36.510 [info] [127.0.0.1][98e5a91e][ExtensionHostConnection] <11593> Launched Extension Host Process.
+2024-02-05 14:45:07.201 [info] Getting Manifest... ms-azuretools.vscode-docker
+2024-02-05 14:45:07.350 [info] Installing extension: ms-azuretools.vscode-docker
+2024-02-05 14:45:15.218 [info] Extension signature is verified: ms-azuretools.vscode-docker
+2024-02-05 14:45:15.487 [info] Extracted extension to file:///home/akraaam_kh/.vscode-server/extensions/ms-azuretools.vscode-docker-1.28.0: ms-azuretools.vscode-docker
+2024-02-05 14:45:15.498 [info] Renamed to /home/akraaam_kh/.vscode-server/extensions/ms-azuretools.vscode-docker-1.28.0
+2024-02-05 14:45:15.507 [info] Extracting extension completed. ms-azuretools.vscode-docker
+2024-02-05 14:45:15.517 [info] Extension installed successfully: ms-azuretools.vscode-docker
+2024-02-05 14:50:19.673 [info] [127.0.0.1][9b195ce8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-02-05 14:50:19.914 [info] [127.0.0.1][98e5a91e][ExtensionHostConnection] <11593> Extension Host Process exited with code: 0, signal: null.
