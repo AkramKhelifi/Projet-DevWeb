@@ -1,0 +1,55 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   .bash_history
+#	modified:   .docker/desktop/log/host/docker-desktop-user-distro.log
+#	new file:   .gitconfig
+#	deleted:    .vscode-server/data/User/History/-39dd97aa/2pYw.css
+#	deleted:    .vscode-server/data/User/History/-39dd97aa/3U2U.css
+#	renamed:    .vscode-server/data/User/History/-39dd97aa/6mn8.css -> .vscode-server/data/User/History/-39dd97aa/4Dj1.css
+#	deleted:    .vscode-server/data/User/History/-39dd97aa/7f5l.css
+#	deleted:    .vscode-server/data/User/History/-39dd97aa/92gZ.css
+#	deleted:    .vscode-server/data/User/History/-39dd97aa/GSsc.css
+#	new file:   .vscode-server/data/User/History/-39dd97aa/IWAg.css
+#	new file:   .vscode-server/data/User/History/-39dd97aa/JhbQ.css
+#	deleted:    .vscode-server/data/User/History/-39dd97aa/O3td.css
+#	renamed:    .vscode-server/data/User/History/-39dd97aa/v1m6.css -> .vscode-server/data/User/History/-39dd97aa/R10N.css
+#	new file:   .vscode-server/data/User/History/-39dd97aa/RWUP.css
+#	deleted:    .vscode-server/data/User/History/-39dd97aa/XRZx.css
+#	new file:   .vscode-server/data/User/History/-39dd97aa/Y8VT.css
+#	new file:   .vscode-server/data/User/History/-39dd97aa/Yufg.css
+#	new file:   .vscode-server/data/User/History/-39dd97aa/bJrM.css
+#	modified:   .vscode-server/data/User/History/-39dd97aa/entries.json
+#	new file:   .vscode-server/data/User/History/-39dd97aa/fYh6.css
+#	new file:   .vscode-server/data/User/History/-39dd97aa/oFhF.css
+#	renamed:    .vscode-server/data/User/History/-39dd97aa/jWmV.css -> .vscode-server/data/User/History/-39dd97aa/oKTA.css
+#	deleted:    .vscode-server/data/User/History/-39dd97aa/ocqa.css
+#	renamed:    .vscode-server/data/User/History/-39dd97aa/bgas.css -> .vscode-server/data/User/History/-39dd97aa/vbK1.css
+#	deleted:    .vscode-server/data/User/History/-39dd97aa/yLCu.css
+#	new file:   .vscode-server/data/User/History/-39dd97aa/ykas.css
+#	modified:   .vscode-server/data/User/workspaceStorage/aab43a72942d0c30cbbbacde874c7c05/vscode.lock
+#	deleted:    .vscode-server/data/logs/20240205T144034/exthost1/ms-azuretools.vscode-docker/Docker.log
+#	deleted:    .vscode-server/data/logs/20240205T144034/exthost1/remoteexthost.log
+#	deleted:    .vscode-server/data/logs/20240205T144034/exthost1/vscode.git/Git.log
+#	deleted:    .vscode-server/data/logs/20240205T144034/exthost1/vscode.github/GitHub.log
+#	deleted:    .vscode-server/data/logs/20240205T144034/remoteagent.log
+#	modified:   .vscode-server/data/logs/20240214T120859/exthost1/remoteexthost.log
+#	modified:   .vscode-server/data/logs/20240214T120859/exthost1/vscode.git/Git.log
+#	modified:   .vscode-server/data/logs/20240214T120859/remoteagent.log
+#	new file:   .vscode-server/data/logs/20240216T132219/exthost1/remoteexthost.log
+#	new file:   .vscode-server/data/logs/20240216T132219/exthost1/vscode.git/Git.log
+#	new file:   .vscode-server/data/logs/20240216T132219/exthost1/vscode.github/GitHub.log
+#	renamed:    .vscode-server/data/logs/20240205T144034/network.log -> .vscode-server/data/logs/20240216T132219/network.log
+#	new file:   .vscode-server/data/logs/20240216T132219/ptyhost.log
+#	new file:   .vscode-server/data/logs/20240216T132219/remoteagent.log
+#	new file:   Paris-B2-DevWeb-main/app/public/images/flash.png
+#	modified:   Paris-B2-DevWeb-main/app/public/style.css
+#
+# Changes not staged for commit:
+#	modified:   .vscode-server/data/logs/20240216T132219/exthost1/vscode.git/Git.log
+#

@@ -96,3 +96,18 @@ sudo
 sudo chmod -R 777 photo
 ls -l
 code .
+git init
+git add.
+git add .
+git commit -m 'Paris-B2-DevWev'
+git config --global user.email 'khelifiakramyacine00@gmail.com'
+git config --global user.name 'AkramKhelifi'
+git config --global user.email
+git config --global user.name
+git commit -m 'Projet Dev'
+git remote add origin https://github.com/AkramKhelifi/Projet-DevWeb. git
+git push -u origine principale
+git remote add origin https://github.com/AkramKhelifi/Projet-DevWeb.git
+git push -u origine principale
+git push -u Projet-DevWeb
+git push -u origin master
