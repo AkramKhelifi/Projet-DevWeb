@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    cursor: url('images/flash.png'), auto;
  }
  
 .admin{
@@ -117,7 +118,6 @@ padding: 2px 80px;
 background: whitesmoke;
 outline: none;
 border: none;
-cursor: pointer;
 border-radius: 20px ;
 position: relative;
 box-shadow: 0 6px red ;
@@ -155,7 +155,50 @@ margin-top: 300px;
 
 .logo2{
 margin-top: 25px;
-margin-left: 45%;
-width: 150px;
+width: 125px;
 height: auto;
+}
+
+
+.form_reg{
+margin-top: 0px;
+background-color:#fff;
+width: 500px;
+height: 400px;
+padding: 0px;
+text-align: center;
+margin-left: 250px;
+margin-right: 250px;
+}
+
+.form_reg input{
+margin: 0 0;
+padding: 4px;
+border-radius:6px;
+border: 1px solid #999;
+margin-top: 10px;
+}
+    
+.form_reg input[type='submit']{
+margin-top: 20px;
+margin-bottom: 30px;
+background-color:rgb(255, 119, 0);
+color: #fff;
+width: 100%;
+}
+    
+.form_reg h2{
+font-size: 1.8em;
+margin-bottom: 30px;
+}
+
+.logo3{
+margin-top: 25px;
+width: 100px;
+height: auto;
+}
+
+.erreur{
+color: red;
+font-weight: bold;
 }
