@@ -1,0 +1,268 @@
+2024-02-16 23:38:38.032 [info] Extension host with pid 33495 started
+2024-02-16 23:38:38.110 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-16 23:38:38.114 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-02-16 23:38:38.423 [info] Lock '/home/akraaam_kh/.vscode-server/data/User/workspaceStorage/aab43a72942d0c30cbbbacde874c7c05/vscode.lock': Lock acquired.
+2024-02-16 23:38:39.118 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-16 23:38:39.178 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-16 23:38:39.179 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-16 23:38:40.529 [info] Eager extensions activated
+2024-02-16 23:38:40.530 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-16 23:38:40.530 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-16 23:38:43.053 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3383
+2024-02-16 23:38:49.104 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3395
+2024-02-16 23:38:51.510 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3395
+2024-02-16 23:38:57.000 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3395
+2024-02-16 23:39:02.189 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3395
+2024-02-16 23:39:07.560 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3395
+2024-02-16 23:39:12.749 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3395
+2024-02-16 23:39:18.394 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3395
+2024-02-16 23:39:22.531 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2024-02-16 23:39:23.546 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3395
+2024-02-16 23:39:28.723 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3395
+2024-02-16 23:39:33.884 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3395
+2024-02-16 23:39:39.062 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3395
+2024-02-16 23:39:44.226 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3395
+2024-02-16 23:39:49.402 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3398
+2024-02-16 23:39:54.580 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3398
+2024-02-16 23:39:59.875 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3398
+2024-02-16 23:40:05.021 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3398
+2024-02-16 23:40:10.231 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3398
+2024-02-16 23:40:15.455 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3398
+2024-02-16 23:40:20.679 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3398
+2024-02-16 23:40:25.890 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3398
+2024-02-16 23:40:31.465 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3403
+2024-02-16 23:40:43.461 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3403
+2024-02-16 23:40:48.754 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3403
+2024-02-16 23:40:54.626 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3403
+2024-02-16 23:40:59.820 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3403
+2024-02-16 23:41:05.003 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3406
+2024-02-16 23:41:10.187 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3406
+2024-02-16 23:41:15.473 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3406
+2024-02-16 23:41:20.610 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3406
+2024-02-16 23:41:25.739 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3406
+2024-02-16 23:41:30.884 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3406
+2024-02-16 23:41:36.049 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3409
+2024-02-16 23:41:45.575 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3409
+2024-02-16 23:41:50.730 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3409
+2024-02-16 23:41:55.905 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3409
+2024-02-16 23:42:01.144 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3409
+2024-02-16 23:42:06.316 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3409
+2024-02-16 23:42:11.531 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3409
+2024-02-16 23:42:16.742 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3412
+2024-02-16 23:42:30.380 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3412
+2024-02-16 23:42:38.293 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3412
+2024-02-16 23:42:45.379 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3412
+2024-02-16 23:42:50.557 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3412
+2024-02-16 23:42:55.708 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3412
+2024-02-16 23:43:00.826 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3412
+2024-02-16 23:43:10.496 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3412
+2024-02-16 23:43:15.650 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3412
+2024-02-16 23:43:20.775 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3412
+2024-02-16 23:43:25.962 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3412
+2024-02-16 23:43:31.133 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3412
+2024-02-16 23:43:36.775 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3415
+2024-02-16 23:43:41.922 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3415
+2024-02-16 23:43:47.065 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3415
+2024-02-16 23:43:52.224 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3415
+2024-02-16 23:44:24.364 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3415
+2024-02-16 23:44:29.560 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3415
+2024-02-16 23:44:34.805 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3415
+2024-02-16 23:44:40.045 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3417
+2024-02-16 23:44:45.266 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3419
+2024-02-16 23:44:50.438 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3421
+2024-02-16 23:44:55.760 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3423
+2024-02-16 23:45:00.957 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3425
+2024-02-16 23:46:21.148 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3425
+2024-02-16 23:46:26.334 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3425
+2024-02-16 23:46:31.506 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3425
+2024-02-16 23:47:27.399 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3425
+2024-02-16 23:47:32.574 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3425
+2024-02-16 23:47:37.795 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3425
+2024-02-16 23:47:43.030 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3425
+2024-02-16 23:48:43.807 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3425
+2024-02-16 23:48:48.951 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3428
+2024-02-16 23:48:54.106 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3431
+2024-02-16 23:48:59.334 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3431
+2024-02-16 23:49:04.557 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3431
+2024-02-16 23:49:09.793 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3434
+2024-02-16 23:49:15.439 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3434
+2024-02-16 23:50:29.870 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3434
+2024-02-17 00:20:34.364 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3434
+2024-02-17 00:20:39.564 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3434
+2024-02-17 00:20:44.682 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3434
+2024-02-17 00:20:49.855 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3434
+2024-02-17 00:20:54.988 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3434
+2024-02-17 00:21:00.527 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3437
+2024-02-17 00:21:05.749 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3437
+2024-02-17 00:21:10.887 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3436
+2024-02-17 00:21:10.908 [info] Extension host terminating: received terminate message from renderer
+2024-02-17 00:21:10.911 [info] Lock '/home/akraaam_kh/.vscode-server/data/User/workspaceStorage/aab43a72942d0c30cbbbacde874c7c05/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-02-17 00:21:11.193 [error] Canceled: Canceled
+	at Object.D [as $6] (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:147:2350
+	at Array.forEach (<anonymous>)
+	at d.dispose (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:147:2288)
+	at g.terminate (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:156:8044)
+	at o.terminate (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:173:9950)
+	at g.value (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:173:7997)
+	at r.y (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.fire (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.fire (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:14073)
+	at s.z (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:17138)
+	at g.value (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:15590)
+	at r.y (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.fire (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at g.acceptChunk (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:11847)
+	at g.value (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:11134)
+	at r.y (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.fire (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at r.z (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:170:19768)
+	at r.acceptFrame (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:170:19574)
+	at i.n (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:170:18073)
+	at /home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:170:15293
+	at Socket.y (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:170:13198)
+	at Socket.emit (node:events:514:28)
+	at addChunk (node:internal/streams/readable:324:12)
+	at readableAddChunk (node:internal/streams/readable:297:9)
+	at Readable.push (node:internal/streams/readable:234:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-02-17 00:21:11.193 [error] Canceled: Canceled
+	at Object.D [as $6] (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:147:2350
+	at Array.forEach (<anonymous>)
+	at d.dispose (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:147:2288)
+	at g.terminate (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:156:8044)
+	at o.terminate (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:173:9950)
+	at g.value (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:173:7997)
+	at r.y (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.fire (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.fire (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:14073)
+	at s.z (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:17138)
+	at g.value (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:15590)
+	at r.y (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.fire (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at g.acceptChunk (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:11847)
+	at g.value (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:11134)
+	at r.y (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.fire (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at r.z (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:170:19768)
+	at r.acceptFrame (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:170:19574)
+	at i.n (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:170:18073)
+	at /home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:170:15293
+	at Socket.y (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:170:13198)
+	at Socket.emit (node:events:514:28)
+	at addChunk (node:internal/streams/readable:324:12)
+	at readableAddChunk (node:internal/streams/readable:297:9)
+	at Readable.push (node:internal/streams/readable:234:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-02-17 00:21:11.195 [error] Canceled: Canceled
+	at new f (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:140:45069)
+	at d.U (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:147:5557)
+	at T.<computed>.O.charCodeAt.T.<computed> (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:147:3008)
+	at s.g (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:150:174704)
+	at s.executeCommand (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at m.registerCommand.description (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:150:173466)
+	at s.h (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:150:175243)
+	at s.g (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:150:174235)
+	at s.executeCommand (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at Object.executeCommand (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:160:21634)
+	at g.I [as value] (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/main.js:2:927298)
+	at r.y (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.z (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at r.fire (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/main.js:2:943089)
+	at /home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/main.js:2:947930
+	at Array.forEach (<anonymous>)
+	at p.dispose (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/main.js:2:947916)
+	at c.<anonymous> (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:148:3650)
+	at c.dispose (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:148:3747)
+	at c.<anonymous> (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/main.js:2:929310)
+	at c.dispose (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:148:3747)
+	at o (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at g.cb (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:156:9874)
+	at /home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:156:7808
+	at Array.map (<anonymous>)
+	at g.Y (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:156:7795)
+	at g.terminate (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:156:8068)
+	at o.terminate (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:173:9950)
+	at g.value (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:173:7997)
+	at r.y (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.fire (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.fire (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:14073)
+	at s.z (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:17138)
+	at g.value (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:15590)
+	at r.y (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.fire (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at g.acceptChunk (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:11847)
+	at g.value (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:11134)
+	at r.y (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.fire (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at r.z (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:170:19768)
+	at r.acceptFrame (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:170:19574)
+	at i.n (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:170:18073)
+	at /home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:170:15293
+	at Socket.y (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:170:13198)
+	at Socket.emit (node:events:514:28)
+	at addChunk (node:internal/streams/readable:324:12)
+	at readableAddChunk (node:internal/streams/readable:297:9)
+	at Readable.push (node:internal/streams/readable:234:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-02-17 00:21:11.196 [error] Canceled: Canceled
+	at new f (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:140:45069)
+	at d.U (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:147:5557)
+	at T.<computed>.O.charCodeAt.T.<computed> (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:147:3008)
+	at s.g (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:150:174704)
+	at s.executeCommand (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at m.registerCommand.description (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:150:173466)
+	at s.h (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:150:175243)
+	at s.g (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:150:174235)
+	at s.executeCommand (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at Object.executeCommand (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:160:21634)
+	at set b [as b] (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/github/dist/extension.js:2:322364)
+	at /home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/github/dist/extension.js:2:323005
+	at g.value (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/main.js:2:1018251)
+	at r.y (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.z (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at r.fire (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/main.js:2:943089)
+	at /home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/main.js:2:947930
+	at Array.forEach (<anonymous>)
+	at p.dispose (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/main.js:2:947916)
+	at c.<anonymous> (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:148:3650)
+	at c.dispose (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:148:3747)
+	at c.<anonymous> (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/main.js:2:929310)
+	at c.dispose (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:148:3747)
+	at o (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at g.cb (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:156:9874)
+	at /home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:156:7808
+	at Array.map (<anonymous>)
+	at g.Y (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:156:7795)
+	at g.terminate (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:156:8068)
+	at o.terminate (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:173:9950)
+	at g.value (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:173:7997)
+	at r.y (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.fire (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.fire (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:14073)
+	at s.z (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:17138)
+	at g.value (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:15590)
+	at r.y (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.fire (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at g.acceptChunk (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:11847)
+	at g.value (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:11134)
+	at r.y (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.fire (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at r.z (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:170:19768)
+	at r.acceptFrame (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:170:19574)
+	at i.n (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:170:18073)
+	at /home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:170:15293
+	at Socket.y (/home/akraaam_kh/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:170:13198)
+	at Socket.emit (node:events:514:28)
+	at addChunk (node:internal/streams/readable:324:12)
+	at readableAddChunk (node:internal/streams/readable:297:9)
+	at Readable.push (node:internal/streams/readable:234:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-02-17 00:21:11.205 [info] Extension host with pid 33495 exiting with code 0

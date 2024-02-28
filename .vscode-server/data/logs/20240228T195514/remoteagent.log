@@ -1,0 +1,13 @@
+2024-02-28 19:55:14.926 [info] 
+
+
+
+
+2024-02-28 19:55:14.927 [info] Extension host agent started.
+2024-02-28 19:55:15.017 [info] [127.0.0.1][a0dbf890][ManagementConnection] New connection established.
+2024-02-28 19:55:16.281 [info] [127.0.0.1][7d0fb45b][ExtensionHostConnection] New connection established.
+2024-02-28 19:55:16.294 [info] [127.0.0.1][7d0fb45b][ExtensionHostConnection] <31095> Launched Extension Host Process.
+2024-02-28 21:31:56.219 [info] [127.0.0.1][7d0fb45b][ExtensionHostConnection] The client has reconnected.
+2024-02-28 21:31:56.933 [info] [127.0.0.1][a0dbf890][ManagementConnection] The client has reconnected.
+2024-02-28 23:40:51.693 [info] [127.0.0.1][a0dbf890][ManagementConnection] The client has reconnected.
+2024-02-28 23:40:52.103 [info] [127.0.0.1][7d0fb45b][ExtensionHostConnection] The client has reconnected.

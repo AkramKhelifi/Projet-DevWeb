@@ -1,0 +1,31 @@
+{% extends "base_auth.html.twig" %}
+
+{% block header %}  
+<div class ="admin">
+
+<h2>ACCORD-ENERGIE</h2>
+
+
+<a href="mesdemandes.php" >MES DEMANDES</a>
+<a href='chat.php?' class="chat"><img src='images/chat.jpg' ></a>
+<a onclick = "return confirm('Êtes vous sûr de vouloir vous déconnecter ?')" href="deconnexion.php">DECONNEXION</a>
+<img src='photo/{{photo}}' class="photo">
+
+
+</div>
+{% endblock %}
+
+{% block body %}
+<ul class = "ul1">
+<a href='add.php?' class = "add"><img src='images/add.jpg'  width = 160  ></a>
+        {% for intervention in interventions %}
+        <li>{{ intervention.nom_intervention }}
+            <div class = "es">
+            <a href='edit.php?' ><img src='images/edit.jpg' width = 43 ></a>
+            <a href='supp.php?' class = "supp"><img src='images/supp.png' width = 40></a>
+            </div>
+        </li>
+        {% endfor %}
+</ul>
+<img class = "logo" src='images/Logo.jpg'>
+{% endblock %}

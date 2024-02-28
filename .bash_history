@@ -111,3 +111,42 @@ git remote add origin https://github.com/AkramKhelifi/Projet-DevWeb.git
 git push -u origine principale
 git push -u Projet-DevWeb
 git push -u origin master
+git config  --global --list
+git log 
+git add .
+git status
+git commit -m "2"
+git push origin master 
+git add .
+commit -m "3"
+git commit -m "3"
+git log
+ls
+cd Paris-B2-DevWeb-main
+ls
+cd app
+ls
+cd public
+ls
+ls -l /images
+cd images
+ls
+ls -l /curseur.png
+ls -l
+chmod o+r curseur.png
+ls -l
+chmod -R 777 cuseur.png
+chmod -R 777 curseur.png
+ls -l
+pwd
+mkdir test
+cd ..
+cd ....
+cd ..
+cd Desktop
+cdcr
+code .
+ls
+cd Paris-B2-DevWeb-main
+ls 
+code .

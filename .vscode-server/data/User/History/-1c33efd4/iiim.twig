@@ -1,0 +1,27 @@
+{% extends "base_auth.html.twig" %}
+
+{% block header %}  
+<div class ="admin">
+    <h2>ACCORD-ENERGIE</h2>
+    <a href="mesdemandes.php" >MES DEMANDES</a>
+    <a href='chat.php?' class="chat"><img src='images/chat.jpg' ></a>
+    <a onclick="return confirm('Êtes vous sûr de vouloir vous déconnecter ?')" href="deconnexion.php">DECONNEXION</a>
+    <img src='photo/{{ photo }}' class="photo">
+</div>
+{% endblock %}
+
+{% block body %}
+<div class="edit_container">
+    <form action="edit.php" method="POST">
+        <div class="edit_title">
+            <input type="text" name="nom_intervention" value="{{ oneint.nom_intervention }}" >
+        </div>
+
+        <div class="edit_body">
+            <textarea name="details_intervention" >{{ oneint.details_intervention|replace({'<br>': "\n"}) }}</textarea>
+        </div>
+
+        <button type="submit" name="edit" class="edit_button">Enregistrer</button>
+    </form>
+</div>
+{% endblock %}
