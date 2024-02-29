@@ -1,0 +1,31 @@
+{% extends "base_auth.html.twig" %}
+
+{% block header %}  
+<div class="admin">
+    <h2>ACCORD-ENERGIE</h2>
+    <a href="mesdemandes.php">MES DEMANDES</a>
+    <a href="chat.php" class="chat"><img src="images/chat.jpg" ></a>
+    <a onclick="return confirm('Êtes-vous sûr de vouloir vous déconnecter ?')" href="deconnexion.php">DECONNEXION</a>
+    <img src="photo/{{ photo }}" class="photo">
+</div>
+{% endblock %}
+
+{% block body %}
+<div class="edit_container">
+    {% if msg %}
+        <div class="succes">{{ msg }}</div>
+    {% endif %}
+    <form action="add.php" method="POST">
+        <div class="edit_title">
+            <input type="text" id="nom_intervention" name="nom_intervention" required>
+        </div>
+
+        <div class="edit_body">
+            <textarea id="details_intervention" name="details_intervention" required></textarea>
+        </div>
+        
+        <button type="submit" name="add" class="edit_button">ADD</button>
+    </form>
+</div>
+<img class="logo" src='images/Logo.jpg'>
+{% endblock %}
