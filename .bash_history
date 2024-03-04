@@ -150,3 +150,16 @@ ls
 cd Paris-B2-DevWeb-main
 ls 
 code .
+git init
+git add .
+git commit -m "3"
+git push -u origin master
+git init
+git add .
+git commit -m "4"
+git push -u origin master
+code .
+git init 
+git add .
+git log
+git log 

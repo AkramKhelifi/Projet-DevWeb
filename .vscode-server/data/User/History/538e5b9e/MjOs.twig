@@ -1,0 +1,29 @@
+{% extends "base_auth.html.twig" %}
+
+{% block header %}  
+<div class="admin">
+    <h2>ACCORD-ENERGIE</h2>
+    <a href="mesdemandes.php">MES DEMANDES</a>
+    <a href="chat.php" class="chat"><img src="images/chat.jpg" ></a>
+    <a onclick="return confirm('Êtes-vous sûr de vouloir vous déconnecter ?')" href="deconnexion.php">DECONNEXION</a>
+    <img src="photo/{{ photo }}" class="photo">
+</div>
+{% endblock %}
+
+{% block body %}
+<form action="mesdemandes.php" method="POST">
+    <ul class="ul1">
+        {% for user in users %}
+        <li>
+            {{ user.nom }} {{ user.prenom }} 
+            <input type="text" name="role_id" value="{{ user.role_id }}">
+            <input type="hidden" name="idu" value="{{ user.idu }}">
+            <div class="es">
+                <button type="submit" name="edituser">Mettre à jour</button>
+                <a onclick="return confirm('Êtes-vous sûr de vouloir supprimer le service?')" href='profile.php?delete_id={{ user.id }}' class="supp"><img src='images/supp.png' width="40"></a>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</form>
+{% endblock %}
