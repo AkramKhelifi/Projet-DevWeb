@@ -15,15 +15,14 @@ if(!$page->session->isConnected()) {
 $photo = $_SESSION['user']['photo'];
 $users = $page->RepoUser->getUsers($_SESSION['user']['idu']);
 
+// Traitement de la recherche
 if(isset($_GET['search'])) {
     $searchTerm = $_GET['search'];
-    $users = $page->RepoUser->searchUsersByName($searchTerm,$_SESSION['user']['idu']);
+    $users = $page->RepoUser->searchUsersByName($searchTerm, $_SESSION['user']['idu']);
 }
 
 if(isset($_GET['delete_id'])) {
     $page->RepoUser->deleteUser($_GET['delete_id']);
-    $msg = "Suppression (Ok). Vous allez être redirigé(e)";
-    header('Refresh: 3; URL=mesdemandes.php');
 }
 
 if(isset($_POST['edituser'])){
@@ -33,7 +32,7 @@ if(isset($_POST['edituser'])){
     $allowed_roles = ['ADMIN', 'CLIENT', 'INTERVENANT', 'STANDARDISTE'];
     if (in_array($role, $allowed_roles)) {
         $page->RepoUser->updateUser($id, $role);
-        $msg = "Maj de role (Ok). Vous allez être redirigé(e)";
+        $msg = "Maj de role (Ok)";
         header('Refresh: 3; URL=mesdemandes.php');
     } else {
         $msg = "Le rôle fourni n'est pas valide";

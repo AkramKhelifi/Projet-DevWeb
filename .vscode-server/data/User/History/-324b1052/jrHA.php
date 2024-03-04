@@ -22,18 +22,19 @@ if(isset($_GET['search'])) {
 
 if(isset($_GET['delete_id'])) {
     $page->RepoUser->deleteUser($_GET['delete_id']);
-    $msg = "Suppression (Ok). Vous allez être redirigé(e)";
+    var_dump($page->RepoUser->deleteUser($_GET['delete_id']));
     header('Refresh: 3; URL=mesdemandes.php');
 }
 
 if(isset($_POST['edituser'])){
+    var_dump($_POST['edituser']);
     $id = $_POST['user_id'];
     $role = strtoupper($_POST['role_name']);
     
     $allowed_roles = ['ADMIN', 'CLIENT', 'INTERVENANT', 'STANDARDISTE'];
     if (in_array($role, $allowed_roles)) {
         $page->RepoUser->updateUser($id, $role);
-        $msg = "Maj de role (Ok). Vous allez être redirigé(e)";
+        $msg = "Maj de role (Ok)";
         header('Refresh: 3; URL=mesdemandes.php');
     } else {
         $msg = "Le rôle fourni n'est pas valide";

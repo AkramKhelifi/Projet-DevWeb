@@ -24,9 +24,11 @@ if(isset($_GET['delete_id'])) {
     $page->RepoUser->deleteUser($_GET['delete_id']);
     $msg = "Suppression (Ok). Vous allez être redirigé(e)";
     header('Refresh: 3; URL=mesdemandes.php');
+    exit();
 }
 
 if(isset($_POST['edituser'])){
+    var_dump($_POST['edituser']);
     $id = $_POST['user_id'];
     $role = strtoupper($_POST['role_name']);
     

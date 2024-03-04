@@ -23,7 +23,7 @@ if(isset($_GET['search'])) {
 if(isset($_GET['delete_id'])) {
     $page->RepoUser->deleteUser($_GET['delete_id']);
     $msg = "Suppression (Ok). Vous allez être redirigé(e)";
-    header('Refresh: 3; URL=mesdemandes.php');
+    
 }
 
 if(isset($_POST['edituser'])){
@@ -34,10 +34,10 @@ if(isset($_POST['edituser'])){
     if (in_array($role, $allowed_roles)) {
         $page->RepoUser->updateUser($id, $role);
         $msg = "Maj de role (Ok). Vous allez être redirigé(e)";
-        header('Refresh: 3; URL=mesdemandes.php');
+        
     } else {
         $msg = "Le rôle fourni n'est pas valide";
-        header('Refresh: 3; URL=mesdemandes.php');
+        
     }
 }
 

@@ -92,6 +92,7 @@ class RepoUser extends Repo{
         $sth->execute();
     }
     
+// Dans votre classe RepoUser
 
 public function searchUsersByName($searchTerm, $userId) {
     $sql = "SELECT u.idu, u.nom, u.prenom, r.nom_role

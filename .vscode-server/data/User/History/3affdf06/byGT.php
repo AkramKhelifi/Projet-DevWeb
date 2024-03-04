@@ -65,17 +65,14 @@ class RepoUser extends Repo{
         $sth->execute();
     }
 
-    public function getUsers($userId){
+    public function getUsers(){
         $sql = "SELECT u.idu, u.nom, u.prenom, r.nom_role
                 FROM users u
-                INNER JOIN role r ON u.role_id = r.id_role
-                WHERE u.idu != :userId";
+                INNER JOIN role r ON u.role_id = r.id_role";
         $sth = $this->link->prepare($sql);
-        $sth->bindValue(':userId', $userId, \PDO::PARAM_INT);
         $sth->execute();
         return $sth->fetchAll(\PDO::FETCH_ASSOC);
     }
-    
 
     public function updateUser($idu, $role_name) {
         $sql = "UPDATE users SET role_id = (SELECT id_role FROM role WHERE nom_role = :role_name) WHERE idu = :idu";
@@ -85,28 +82,13 @@ class RepoUser extends Repo{
         $sth->execute();
     }
     
-    public function deleteUser($id) {
-        $sql = "DELETE FROM users WHERE idu = :id";
+    public function deleteUser(array $data)
+    {
+        $sql = "DELETE FROM users WHERE  = :email";
         $sth = $this->link->prepare($sql);
-        $sth->bindParam(':id', $id, \PDO::PARAM_INT);
-        $sth->execute();
+        $sth->execute($data);
+
+        return $sth->fetch(\PDO::FETCH_ASSOC);
     }
-    
-
-public function searchUsersByName($searchTerm, $userId) {
-    $sql = "SELECT u.idu, u.nom, u.prenom, r.nom_role
-            FROM users u
-            INNER JOIN role r ON u.role_id = r.id_role
-            WHERE CONCAT(u.nom, ' ', u.prenom) LIKE :searchTerm AND u.idu != :userId";
-    $sth = $this->link->prepare($sql);
-    $searchTerm = "%$searchTerm%"; // Ajoutez le caractère de joker % autour du terme de recherche
-    $sth->bindValue(':searchTerm', $searchTerm, \PDO::PARAM_STR);
-    $sth->bindValue(':userId', $userId, \PDO::PARAM_INT);
-    $sth->execute();
-    return $sth->fetchAll(\PDO::FETCH_ASSOC);
-}
-
-
-
     
 }

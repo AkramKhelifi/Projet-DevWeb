@@ -27,6 +27,7 @@ if(isset($_GET['delete_id'])) {
 }
 
 if(isset($_POST['edituser'])){
+    var_dump($_POST['edituser']);
     $id = $_POST['user_id'];
     $role = strtoupper($_POST['role_name']);
     
