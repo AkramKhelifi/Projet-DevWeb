@@ -163,3 +163,12 @@ git init
 git add .
 git log
 git log 
+git init 
+git add .
+git commit -m "5"
+git push -u origin master
+git init
+git add .
+git commit -m "6"
+git push -u origin master
+git log
