@@ -172,3 +172,11 @@ git add .
 git commit -m "6"
 git push -u origin master
 git log
+git init
+git add .
+git commit -m "7"
+git push -u origin master
+git init
+git add .
+git log
+git push -u origin master
