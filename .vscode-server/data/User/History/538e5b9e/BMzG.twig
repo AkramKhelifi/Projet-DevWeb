@@ -1,0 +1,47 @@
+{% extends "base_auth.html.twig" %}
+
+{% block header %}  
+<div class="admin">
+    <h2>ACCORD-ENERGIE</h2>
+    <a href="mesdemandes.php">MES DEMANDES</a>
+    <a href="chat.php" class="chat"><img src="images/chat.jpg" ></a>
+    <a onclick="return confirm('Êtes-vous sûr de vouloir vous déconnecter ?')" href="deconnexion.php">DECONNEXION</a>
+    <img src="photo/{{ photo }}" class="photo">
+</div>
+{% endblock %}
+
+{% block body %}
+<div class="recherche">
+        <form action="mesdemandes.php" method="GET">
+            <input type="text" name="search" placeholder="Rechercher..." class="r">
+            <button type="submit" class = "sb" >Rechercher</button>
+        </form>
+    </div>
+
+        <ul class="ul2">
+        {% if msg1 %}
+        <div class="success2">{{ msg1 }}</div>
+        {% endif %}
+        {% if msg2 %}
+        <div class="success3">{{ msg2 }}</div>
+        {% endif %}
+
+        {% for user in users %}
+        <li>
+
+        {{ user.nom }} {{ user.prenom }}
+  
+    <div class="actions">
+        <form action="mesdemandes.php" method="POST" class="fd">
+            <input type="text" name="role_name" class="ro" value="{{ user.nom_role }}">
+            <input type="hidden" name="user_id" value="{{ user.idu }}">
+            <button type="submit" name="edituser" class="mj">Mettre à jour</button>
+        </form>
+        <div class="es">
+            <a onclick="return confirm('Êtes-vous sûr de vouloir supprimer l'utilisateur?')" href='mesdemandes.php?delete_id={{ user.idu }}' class="supp"><img src='images/supp.png' width="40"></a>
+        </div>
+    </div>
+</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

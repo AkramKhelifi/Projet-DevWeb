@@ -180,3 +180,16 @@ git init
 git add .
 git log
 git push -u origin master
+git inti 
+git init
+git add .
+got commit -m "8"
+git commit -m "8"
+git push -u origin master
+git init 
+git add .
+git commit -m "10"
+git push -u origin master 
+code .
+git init
+git add .
