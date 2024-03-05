@@ -95,19 +95,17 @@ class RepoUser extends Repo{
 
     public function searchUsersByName($searchTerm, $userId) {
         $sql = "SELECT u.idu, u.nom, u.prenom, r.nom_role
-                FROM users u
-                INNER JOIN role r ON u.role_id = r.id_role
-                WHERE (CONCAT(u.nom, ' ', u.prenom) LIKE :searchTerm OR r.nom_role LIKE :searchTerm) 
-                AND u.idu != :userId";
-        $sth = $this->link->prepare($sql);
+            FROM users u
+            INNER JOIN role r ON u.role_id = r.id_role
+            WHERE CONCAT(u.nom, ' ', u.prenom) LIKE :searchTerm AND u.idu != :userId";
+         $sth = $this->link->prepare($sql);
         $searchTerm = "%$searchTerm%";
         $sth->bindValue(':searchTerm', $searchTerm, \PDO::PARAM_STR);
         $sth->bindValue(':userId', $userId, \PDO::PARAM_INT);
         $sth->execute();
-    
+
         return $sth->fetchAll(\PDO::FETCH_ASSOC);
     }
-    
 
 
 }

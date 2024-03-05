@@ -286,49 +286,50 @@ width: 75%;
 }
 
 .ul2 li {
-display: flex;
-justify-content: space-between;
-align-items: center;
-list-style: none;
-margin-top: 15px;
-font-size: 1.7em;
-padding: 8px;
-border: 2px solid gray;
-border-radius: 25px;
-}
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        margin-top: 15px;
+        font-size: 1.7em;
+        padding: 8px;
+        border: 2px solid gray;
+        border-radius: 25px;
+    }
     
-.actions {
-display: flex;
-align-items: center; 
-}
+    .user-info {
+        /* Aucun changement nécessaire ici si vous voulez juste afficher le nom et le prénom */
+    }
     
-.fd {
-display: flex;
-align-items: center;
-margin-right: 10px; 
-}
+    .actions {
+        display: flex;
+        align-items: center; /* Assure que le formulaire et l'icône 'Supprimer' sont centrés verticalement */
+    }
     
-.ro {
-width: 250px;
-padding: 10px;
-margin-right: 20px;
-font-size: 1em;
-}
+    .fd {
+        display: flex;
+        align-items: center;
+        margin-right: 10px; /* Ajoute de l'espace entre le formulaire et l'icône 'Supprimer' */
+    }
     
-.mj {
-padding: 10px;
-font-size: 14px;
-border: none;
-background-color: #007bff;
-color: #fff;
-border-radius: 10px;
-cursor: pointer;
-}
+    .ro {
+        margin-right: 10px; /* Espacement entre le champ de texte et le bouton */
+    }
+    
+    .mj {
+        padding: 10px;
+        font-size: 14px;
+        border: none;
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 10px;
+        cursor: pointer;
+    }
 
 
 .es {
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 

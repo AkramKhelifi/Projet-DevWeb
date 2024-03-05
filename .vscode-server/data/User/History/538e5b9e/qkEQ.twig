@@ -29,9 +29,9 @@
         
         {% for user in users %}
         <li>
-
+    <div class="user-info">
         {{ user.nom }} {{ user.prenom }}
-  
+    </div>
     <div class="actions">
         <form action="mesdemandes.php" method="POST" class="fd">
             <input type="text" name="role_name" class="ro" value="{{ user.nom_role }}">

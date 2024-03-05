@@ -35,10 +35,10 @@ if(isset($_POST['edituser'])){
     if (in_array($role, $allowed_roles)) {
         $page->RepoUser->updateUser($id, $role);
         $msg1 = "Mise à jour du role (Ok)";
-        header('Refresh: 3; URL=mesdemandes.php');
+        header('Refresh: 0; URL=mesdemandes.php');
     } else {
         $msg2 = "Le rôle fourni n'est pas valide !";
-        header('Refresh: 3; URL=mesdemandes.php');
+        header('Refresh: 0; URL=mesdemandes.php');
     }
 }
 
