@@ -1,0 +1,38 @@
+{% extends "base_auth.html.twig" %}
+
+{% block header %}  
+<div class ="admin">
+     <h2><a href="profile.php" style="color: white; text-decoration: none;">ACCORD-ENERGIE</a></h2>
+    <a href="suivies.php">SUIVIES</a>
+    <a href="urgences.php">URGENCES</a>
+    <a href="utilisateurs.php">UTILISATEURS</a>
+    <a href='chat.php?' class="chat"><img src='images/chat.jpg' ></a>
+    <a onclick="return confirm('Êtes-vous sûr de vouloir vous déconnecter ?')" href="deconnexion.php">DECONNEXION</a>
+    <img src='photo/{{ photo }}' class="photo">
+</div>
+{% endblock %}
+
+{% block body %}
+<div class="edit_container">
+    {% if msg %}
+        <div class="success">{{ msg }}</div>
+    {% endif %}
+    <form action="suivies.php" method="POST">
+        <div class="edit_title">
+            <input type="text" id="suivie" name="suivie" placeholder ="Suivie...." required>
+        </div>
+        
+        <button type="submit" name="add" class="edit_button">ADD</button>
+    </form>
+</div>
+
+<ul class="ul1">
+    {% for suivie in suivies %}
+    <li>{{ suivie.deg_urgence }}
+        <div class="es">
+            <a onclick="return confirm('Êtes-vous sûr de vouloir supprimer l'Urgence?')" href='urgences.php?delete_id={{ urgence.id_urgence}}' class="supp"><img src='images/supp.png' width="40"></a>
+        </div>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
