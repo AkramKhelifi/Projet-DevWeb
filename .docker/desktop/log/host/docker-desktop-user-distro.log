@@ -206,3 +206,18 @@
 -------------------------------------------------------------------------------->8
 -------------------------------------------------------------------------------->8
 [2024-03-10T16:32:36.555673084Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kheli/.docker/features.json, linkPath = ~/.docker/features.json
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2024-03-11T10:47:48.975624782Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/kheli/.docker/contexts
+[2024-03-11T10:47:48.994896351Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/kheli/.docker/contexts: syncNoop
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2024-03-11T10:47:50.269728339Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kheli/.aws, linkPath = <HOME>/.aws
+[2024-03-11T10:47:50.326656344Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.aws to /mnt/c/Users/kheli/.aws: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2024-03-11T10:47:51.347917965Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kheli/.azure, linkPath = <HOME>/.azure
+[2024-03-11T10:47:51.361784451Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.azure to /mnt/c/Users/kheli/.azure: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2024-03-11T10:47:52.248082461Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kheli/.docker/features.json, linkPath = ~/.docker/features.json
