@@ -200,3 +200,15 @@ git push -u origin master
 code .
 git init
 git log
+git init 
+git add .
+git commit -m "12"
+commit -m "13"
+git commit -m "13"
+git inti 
+git add .
+git commit -m "13"
+git init 
+git add .
+git commit -m "14"
+git log 
