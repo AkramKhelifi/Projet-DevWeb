@@ -1,0 +1,19 @@
+{% extends "base_auth.html.twig" %}
+
+{% block header %}  
+<div class ="admin">
+     <h2><a href="standardiste.php" style="color: white; text-decoration: none;">ACCORD-ENERGIE</a></h2>
+    <a href="encour.php">ALL INTERVENTIONS EN COURS</a>
+    <a href="seeclients.php">CLIENTS</a>
+     <a href='chat.php?' class="chat"><img src='images/chat.jpg' ></a>
+    <a onclick="return confirm('Êtes-vous sûr de vouloir vous déconnecter ?')" href="deconnexion.php">DECONNEXION</a>
+    <img src='photo/{{ photo }}' class="photo">
+</div>
+{% endblock %}
+
+{% block body %} 
+
+
+
+<img class="logo" src='images/Logo.jpg'>
+{% endblock %}

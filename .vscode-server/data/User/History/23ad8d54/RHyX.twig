@@ -1,0 +1,44 @@
+{% extends "base_auth.html.twig" %}
+
+{% block header %}  
+<div class ="admin">
+     <h2><a href="standardiste.php" style="color: white; text-decoration: none;">ACCORD-ENERGIE</a></h2>
+    <a href="encour.php">ALL INTERVENTIONS EN COURS</a>
+    <a href="seeclients.php">CLIENTS</a>
+     <a href='chat.php?' class="chat"><img src='images/chat.jpg' ></a>
+    <a onclick="return confirm('Êtes-vous sûr de vouloir vous déconnecter ?')" href="deconnexion.php">DECONNEXION</a>
+    <img src='photo/{{ photo }}' class="photo">
+</div>
+{% endblock %}
+
+{% block body %} 
+<ul class="ul3">
+
+        {% if msg1 %}
+        <div class="success2">{{ msg1 }}</div>
+        {% endif %}
+        {% if msg2 %}
+        <div class="success3">{{ msg2 }}</div>
+        {% endif %}
+        
+        
+    {% for intervention in interventions %}
+    <li>{{ intervention.nom_intervention }} 
+        <div class="es">
+        
+        <form action="intervenant.php" method="POST" class="fd">
+            <input type="text" name="role_name" class="ro" value="{{ intervention.statut_suivi }}">
+            <input type="hidden" name="user_id" value="{{ intervention.id_intervention }}">
+            <button type="submit" name="edituser" class="mj">Mettre à jour</button>
+        </form>
+
+        <div class = "date">{{ intervention.deg_urgence }}</div>
+        <div class = "date" >{{ intervention.date_cre_int }}</div>
+        <div class = "date2" >{{ intervention.id_client }}</div>
+        </div>
+    </li>
+    {% endfor %}
+</ul>
+
+<img class="logo" src='images/Logo.jpg'>
+{% endblock %}
