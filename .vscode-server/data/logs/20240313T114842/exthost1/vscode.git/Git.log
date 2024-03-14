@@ -1,0 +1,41 @@
+2024-03-13 11:48:45.270 [info] Log level: Info
+2024-03-13 11:48:45.270 [info] Validating found git in: "git"
+2024-03-13 11:48:45.270 [info] Using git "2.34.1" from "git"
+2024-03-13 11:48:45.270 [info] > git rev-parse --show-toplevel [7ms]
+2024-03-13 11:48:45.270 [info] > git rev-parse --git-dir --git-common-dir [18ms]
+2024-03-13 11:48:45.270 [info] Open repository: /home/akraaam_kh
+2024-03-13 11:48:45.270 [info] > git rev-parse --show-toplevel [47ms]
+2024-03-13 11:48:45.270 [info] > git config --get commit.template [53ms]
+2024-03-13 11:48:45.292 [info] > git rev-parse --show-toplevel [11ms]
+2024-03-13 11:48:45.303 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2024-03-13 11:48:45.305 [info] > git rev-parse --show-toplevel [7ms]
+2024-03-13 11:48:45.317 [info] > git rev-parse --show-toplevel [4ms]
+2024-03-13 11:48:45.337 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-13 11:48:45.347 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-13 11:48:45.359 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-03-13 11:48:45.373 [info] Open repository: /home/akraaam_kh/Projet-DevWeb
+2024-03-13 11:48:45.406 [info] > git status -z -uall [81ms]
+2024-03-13 11:48:45.410 [info] > git config --get commit.template [12ms]
+2024-03-13 11:48:46.594 [info] > git check-ignore -v -z --stdin [80ms]
+2024-03-13 11:48:46.600 [info] > git config --get commit.template [73ms]
+2024-03-13 11:48:46.603 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2024-03-13 11:48:46.626 [warning] ENOENT: no such file or directory, open '/home/akraaam_kh/Projet-DevWeb/.git/refs/remotes/origin/master'
+2024-03-13 11:48:46.629 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2024-03-13 11:48:46.644 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [30ms]
+2024-03-13 11:48:46.670 [info] > git status -z -uall [26ms]
+2024-03-13 11:48:46.691 [info] > git config --get commit.template [4ms]
+2024-03-13 11:48:46.700 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-13 11:48:46.707 [warning] ENOENT: no such file or directory, open '/home/akraaam_kh/Projet-DevWeb/.git/refs/remotes/origin/master'
+2024-03-13 11:48:46.709 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-03-13 11:48:46.721 [info] > git status -z -uall [53ms]
+2024-03-13 11:48:46.887 [info] > git status -z -uall [170ms]
+2024-03-13 11:48:47.235 [info] > git check-ignore -v -z --stdin [14ms]
+2024-03-13 11:48:49.928 [info] > git config --get commit.template [14ms]
+2024-03-13 11:48:49.931 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-03-13 11:48:49.974 [info] > git status -z -uall [36ms]
+2024-03-13 11:48:55.079 [info] > git config --get commit.template [12ms]
+2024-03-13 11:48:55.080 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-03-13 11:48:55.152 [info] > git status -z -uall [60ms]
+2024-03-13 11:49:00.294 [info] > git config --get commit.template [16ms]
+2024-03-13 11:49:00.295 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-03-13 11:49:00.364 [info] > git status -z -uall [57ms]

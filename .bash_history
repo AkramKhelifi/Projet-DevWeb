@@ -223,3 +223,10 @@ git commit -u "16"
 git commit -m "16"
 git push -u origin master
 code .
+git init 
+git status
+git add .
+git commit _m "New" 
+git commit -m "new"
+git push -u origin master 
+code .
