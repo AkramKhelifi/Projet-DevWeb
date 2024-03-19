@@ -230,3 +230,22 @@ git commit _m "New"
 git commit -m "new"
 git push -u origin master 
 code .
+git init 
+git add .
+git commit -m  "intervenant"
+git push -u origin master
+git init
+git add .
+git commit -m "intervenant2" 
+git push -u origin master 
+git init
+git commit -m "standardiste"
+git add .
+git commit -m "standardiste"
+git push -u origin master
+code .
+mysql -u root -p
+sudo apt install mysql-client-core-8.0
+mysql -u root -p
+SHOW GRANTS FOR akraaam_kh@LAPTOP-JURU5LT;
+SHOW GRANTS FOR 
