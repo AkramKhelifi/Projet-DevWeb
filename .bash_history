@@ -249,3 +249,7 @@ sudo apt install mysql-client-core-8.0
 mysql -u root -p
 SHOW GRANTS FOR akraaam_kh@LAPTOP-JURU5LT;
 SHOW GRANTS FOR 
+git init 
+git add .
+git commit -m "last"
+git push -u origin master 
